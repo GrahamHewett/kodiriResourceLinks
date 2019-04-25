@@ -1,0 +1,82 @@
+********* Variables Var Let Const ***********
+https://mathiasbynens.be/notes/es6-const
+http://es6-features.org/#Constants
+
+DataTypes Primitives and Non-primitives
+
+http://2ality.com/2011/03/javascript-values-not-everything-is.html
+https://webbjocke.com/javascript-check-data-types/
+https://codeburst.io/explaining-value-vs-reference-in-javascript-647a975e12a0
+https://stackoverflow.com/questions/6605640/javascript-by-reference-vs-by-value
+https://www.google.com/search?q=javascript+value+vs+reference&oq=javascript+value+vs+reference&aqs=chrome..69i57.6369j0j7&sourceid=chrome&ie=UTF-8
+
+********* Operators ***********
+https://www.javatpoint.com/javascript-operators
+
+******* Value or Reference ********
+(Basics) https://codeburst.io/javascript-passing-by-value-vs-reference-explained-in-plain-english-8d00fd06a47c
+(Solid Grasp) https://medium.freecodecamp.org/understanding-by-reference-vs-by-value-d49139beb1c4
+(Heavy Theory) http://dmitrysoshnikov.com/ecmascript/chapter-8-evaluation-strategy/#call-by-sharing 
+(Opinion) https://stackoverflow.com/questions/6605640/javascript-by-reference-vs-by-value
+
+********* This **********
+https://codeburst.io/javascript-the-keyword-this-for-beginners-fb5238d99f85
+https://medium.com/javascript-scene/what-is-this-the-inner-workings-of-javascript-objects-d397bfa0708a
+
+********* Higher Order Functions **********
+https://medium.com/functional-javascript/higher-order-functions-78084829fff4
+https://www.lullabot.com/articles/higher-order-functions-in-javascript
+
+********* Async Javascript **********
+https://flaviocopes.com/javascript-async-defer/
+https://flaviocopes.com/javascript-async-await/
+
+ProtoTypal Inheritance Chain 
+https://medium.com/@js_tut/a-guide-to-prototype-based-class-inheritance-in-javascript-849d3c3ddca
+
+********* Slice Splice **********
+https://rxhl.github.io/Front/2017/10/30/Vanilla-JS-Slice-Splice.html
+https://stackoverflow.com/questions/2243824/what-is-the-difference-between-string-slice-and-string-substring
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice
+
+****** Performance *********
+https://codeburst.io/array-vs-set-vs-map-vs-object-real-time-use-cases-in-javascript-es6-47ee3295329b
+https://github.com/anvaka/set-vs-object
+http://fitzgeraldnick.com/2014/01/13/hiding-implementation-details-with-e6-weakmaps.html
+
+****** Rest and Spread ********
+https://coherent-labs.com/spread-operator-iterators-arrow-functions-es6/
+https://www.eventbrite.com/engineering/learning-es6-rest-spread-operators/
+https://davidwalsh.name/spread-operator
+
+****** Set *********
+https://www.geeksforgeeks.org/sets-in-javascript/
+http://exploringjs.com/es6/ch_maps-sets.html
+http://qnimate.com/difference-between-set-and-weakset-in-javascript/
+http://voidcanvas.com/es6-set-vs-weakset-vs-array/
+https://medium.com/@bretcameron/how-to-make-your-code-faster-using-javascript-sets-b432457a4a77
+
+https://www.sitepoint.com/preparing-ecmascript-6-set-weakset/
+https://www.sitepoint.com/es6-collections-map-set-weakmap-weakset/
+https://codeburst.io/array-vs-set-vs-map-vs-object-real-time-use-cases-in-javascript-es6-47ee3295329b
+https://javascript.info/map-set-weakmap-weakset
+https://stackoverflow.com/questions/29413222/what-are-the-actual-uses-of-es6-weakmap
+https://stackoverflow.com/questions/30556078/ecmascript-6-what-is-weakset-for
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/
+http://2ality.com/2015/01/es6-maps-sets.html
+https://stackoverflow.com/questions/43319924/whats-the-difference-between-es6-set-and-weakset
+
+****** Splice Slice *********
+
+******** Scope and Closures ********
+https://medium.com/dailyjs/i-never-understood-javascript-closures-9663703368e8
+http://blog.taylormcgann.com/2014/01/11/hoisting-javascript/
+
+
+****** Event Listeners and Handlers *********
+https://flaviocopes.com/javascript-events/
+https://www.sitepoint.com/javascript-this-event-handlers/
+https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Event_handlers
+https://www.smashingmagazine.com/2015/03/better-browser-input-events/
+https://stackoverflow.com/questions/29810914/react-js-onclick-cant-pass-value-to-method
+https://blog.logrocket.com/a-guide-to-react-onclick-event-handlers-d411943b14dd

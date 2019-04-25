@@ -1,0 +1,9 @@
+https://medium.com/@ruthmpardee/passing-data-between-react-components-103ad82ebd17
+https://revs.runtime-revolution.com/react-passing-data-between-components-with-pokemon-as-an-example-ac2b5ab59b26
+https://www.youtube.com/watch?v=5Xew--ycx0o
+https://stackoverflow.com/questions/41676254/react-js-pass-data-between-components-flow
+https://rohan-paul.github.io/%0A2017-08-21-react-component-passing-props-to-children.md/javascript/2017/08/22/Passing_Props_between_React_Components/
+https://react-cn.github.io/react/tips/communicate-between-components.html
+https://dev.to/zeyadetman/how-to-pass-state-between-components-in-reactjs-2pg1
+https://malithjayaweera.com/2018/01/reactjs-passing-data-react-components/
+https://blog.codecarrot.net/passing-data-between-react-components/
