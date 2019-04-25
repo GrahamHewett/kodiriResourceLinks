@@ -1,6 +1,6 @@
-# Kodiri Resource Links
+# Create React App
 
-This 'work in progress' will be a collection of carefully selected resource links that have helped members of the Kodiri Coding Community to develop and master important software development skills.
+In this example we will be deploying a simple "Hello World" example with Create React App.
 
 ### Getting started with Create React App
 
