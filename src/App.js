@@ -17,7 +17,10 @@ export default () => (
       </Topic>
     </Section>
     <Section id='react' name='React'>
-      <Topic></Topic>
+      <Topic name='State' parentId='react' index='0'>
+        <ResourceLink text='Amazing guide to state in React' href='https://scrimba.com/g/glearnreact'></ResourceLink> 
+      </Topic>
+
     </Section>
     
     <Section id='testing' name='Testing'>
