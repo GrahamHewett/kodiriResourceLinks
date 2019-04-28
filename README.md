@@ -5,34 +5,36 @@ This 'work in progress' will be a collection of carefully selected resource link
 Fork your chosen repo. This one is located at https://github.com/GrahamHewett/kodiriResourceLinks
 Navigate to your fork on GitHub located at (https://github.com/YOURUSERNAME/kodiriResourceLinks)
 Navigate to a folder on your machine where you want to clone the project to E.g. /User/projects
-`git clone <ssh link to your forked repo>` clones your fork  so you have a local copy on your machine to work on.
+`git clone <ssh link to your forked repo>` clones your fork  so you have a local copy on your machine to work on.  
 For additional details see https://help.github.com/en/articles/fork-a-repo
 
 ### How to keep your personal/local repository in sync with the original project hosted on github
 ##### One Time Commands
-`git remote add --track master upstream git://github.com/grahamhewett/kodiriResourceLinks`
+`git remote add --track master upstream git://github.com/grahamhewett/kodiriResourceLinks`  
 sets the upstream to the original project
 
 ##### Repeatable Commands
- `git fetch upstream`
- `git checkout master`
- `git rebase upstream/master` or `git merge upstream master`
-See [this stack overflow article](https://stackoverflow.com/questions/7244321/how-do-i-update-a-github-forked-repository) for more details
-Please run the repeatable commands above before submitting a pull request.
-If you are worried about losing your own work you can stash your changes with `git stash` before running the 3 repeatable commands above.
-Then run `git stash pop` when you wish to restore your work.
-https://help.github.com/en/articles/syncing-a-fork
-https://www.gun.io/blog/how-to-github-fork-branch-and-pull-request
+`git fetch upstream`  
+`git checkout master`  
+`git rebase upstream/master` or `git merge upstream master`  
+See [this stack overflow article](https://stackoverflow.com/questions/7244321/how-do-i-update-a-github-forked-repository) for more details.  
+Please run the repeatable commands above before submitting a pull request.  
+If you are worried about losing your own work you can stash your changes with `git stash` before running the 3 repeatable commands above.  
+Then run `git stash pop` when you wish to restore your work.  
+https://help.github.com/en/articles/syncing-a-fork  
+https://www.gun.io/blog/how-to-github-fork-branch-and-pull-request  
+
 ### How to Add a new Link
-Phase 1 : The long winded way. To practice creating new instances of defined components and passing them props.
+Phase 1 : The long winded way. To practice creating new instances of defined components and passing them props.  
 `git checkout -b <yourName>Link` Creates a new branch called <yourName>Link. Please replace <yourName> with your actual name or initials.
 
 ```
 <ResourceLink text='Name of link to display on the page' href='url of the link'/>
 ```
-Create a new `<ResourceLink/>` tag with a `text` and a `href` prop.
-The `text` prop refers to how you want the link to look on the page and the `href` prop is the actual url to naviagte to.
-If a suitable `<Section>` and `<Topic>` do not exist for your link then please create them as per the example below.
+Create a new `<ResourceLink/>` tag with a `text` and a `href` prop.  
+The `text` prop refers to how you want the link to look on the page and the `href` prop is the actual url to naviagte to.  
+If a suitable `<Section>` and `<Topic>` do not exist for your link then please create them as per the example below.  
+
 ```
 <Section id='react' name='React'>
     <Topic name='State' parentId='react' index='0'>
@@ -40,24 +42,24 @@ If a suitable `<Section>` and `<Topic>` do not exist for your link then please c
     </Topic>
 </Section>
 ```
-`<Section>` requires two props; `id` and `name`.
-`<Topic>` requires 3 props currently; `name`, `parentId` and `index`.
-`parentId` must match the `<Section>` `id` to which it belongs.
-`index` must be 1 greater than the previous topic. 0 based index. 
+`<Section>` requires two props; `id` and `name`.  
+`<Topic>` requires 3 props currently; `name`, `parentId` and `index`.  
+`parentId` must match the `<Section>` `id` to which it belongs.  
+`index` must be 1 greater than the previous topic. 0 based index.   
 
-Excuse the currently horrible design and please contribute to help improve it.
+Excuse the currently horrible design and please contribute to help improve it.  
 Many Thanks
 
 ## How to submit a pull request
 ##### Repeatable Commands
 `git push origin <yourName>Link`
-Navigate to your GitHub repository and select the <yourName>Link branch 
-Click the [Pull Request] button near the top right.
-Then [New Pull Request]
-Set the base branch to the desired branch of the original repo.
-In this case the master branch of GrahamHewett/kodiriResourceLinks
-Set the compare branch to the branch where you have made changes that you want to be incorporated.
-In this case the <yourName>Link branch
+Navigate to your GitHub repository and select the <yourName>Link branch   
+Click the [Pull Request] button near the top right.  
+Then [New Pull Request]  
+Set the base branch to the desired branch of the original repo.  
+In this case the master branch of GrahamHewett/kodiriResourceLinks  
+Set the compare branch to the branch where you have made changes that you want to be incorporated.  
+In this case the <yourName>Link branch.  
 https://www.gun.io/blog/how-to-github-fork-branch-and-pull-request
 
 ## Goals and Aims
