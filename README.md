@@ -14,9 +14,9 @@ For additional details see https://help.github.com/en/articles/fork-a-repo
 sets the upstream to the original project
 
 ##### Repeatable Commands
-`git fetch upstream`
-`git checkout master`
-`git rebase upstream/master` or `git merge upstream master`
+ `git fetch upstream`
+ `git checkout master`
+ `git rebase upstream/master` or `git merge upstream master`
 See [this stack overflow article](https://stackoverflow.com/questions/7244321/how-do-i-update-a-github-forked-repository) for more details
 Please run the repeatable commands above before submitting a pull request.
 If you are worried about losing your own work you can stash your changes with `git stash` before running the 3 repeatable commands above.
