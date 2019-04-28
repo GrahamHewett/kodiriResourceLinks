@@ -2,10 +2,12 @@
 This 'work in progress' will be a collection of carefully selected resource links that have helped members of the Kodiri Coding Community to develop and master important software development skills.
 
 ### How to fork this or any other GitHub repository(repo)
-Fork your chosen repo. This one is located at https://github.com/GrahamHewett/kodiriResourceLinks
-Navigate to your fork on GitHub located at (https://github.com/YOURUSERNAME/kodiriResourceLinks)
-Navigate to a folder on your machine where you want to clone the project to E.g. /User/projects
-`git clone <ssh link to your forked repo>` clones your fork  so you have a local copy on your machine to work on.  
+Fork your chosen repo.  
+This one is located at https://github.com/GrahamHewett/kodiriResourceLinks  
+Navigate to your fork on GitHub located at (https://github.com/YOURUSERNAME/kodiriResourceLinks)  
+Navigate to a folder on your machine where you want to clone the project to E.g. /User/projects  
+`git clone <ssh link to your forked repo>`  
+clones your fork  so you have a local copy on your machine to work on.  
 For additional details see https://help.github.com/en/articles/fork-a-repo
 
 ### How to keep your personal/local repository in sync with the original project hosted on github
@@ -26,7 +28,8 @@ https://www.gun.io/blog/how-to-github-fork-branch-and-pull-request
 
 ### How to Add a new Link
 Phase 1 : The long winded way. To practice creating new instances of defined components and passing them props.  
-`git checkout -b <yourName>Link` Creates a new branch called <yourName>Link. Please replace <yourName> with your actual name or initials.
+`git checkout -b <yourName>Link`  
+Creates a new branch called <yourName>Link. Please replace <yourName> with your actual name or initials.
 
 ```
 <ResourceLink text='Name of link to display on the page' href='url of the link'/>
@@ -52,7 +55,7 @@ Many Thanks
 
 ## How to submit a pull request
 ##### Repeatable Commands
-`git push origin <yourName>Link`
+`git push origin <yourName>Link`  
 Navigate to your GitHub repository and select the <yourName>Link branch   
 Click the [Pull Request] button near the top right.  
 Then [New Pull Request]  
@@ -72,19 +75,19 @@ https://www.gun.io/blog/how-to-github-fork-branch-and-pull-request
 ## How to deploy a simple create-react-app with Now
 
 ##### Install the Now CLI.
-The following method only works with now CLI 13.0.0 or above.
-The easiest way to create and deploy a new project with CRA is to use the ready-to-deploy example templates provided by the ZEIT.
-Use `now init` to select a deployment template.
-`now init` will give you a list of projects you can choose, for this guide we're using the create-react-app example
--> Select your desired template using the arrow keys
-apollo
-bash
--> `create-react-app`
+The following method only works with now CLI 13.0.0 or above.  
+The easiest way to create and deploy a new project with CRA is to use the ready-to-deploy example templates provided by the ZEIT.  
+Use `now init` to select a deployment template.  
+`now init` will give you a list of projects you can choose, for this guide we're using the create-react-app example  
+-> Select your desired template using the arrow keys  
+apollo  
+bash  
+-> `create-react-app`  
 
-Run `now` from the root of the project and you'll get a link to the deployed project.
-Visit the link to see your page in action.
-To learn more about what's included in this premade project, read this guide from the start
-https://zeit.co/guides/deploying-react-with-now-cra
+Run `now` from the root of the project and you'll get a link to the deployed project.  
+Visit the link to see your page in action.  
+To learn more about what's included in this premade project, read this guide from the start  
+https://zeit.co/guides/deploying-react-with-now-cra  
 
 #### The difference bewteen a fork and a clone
 https://github.community/t5/Support-Protips/The-difference-between-forking-and-cloning-a-repository/ba-p/1372
