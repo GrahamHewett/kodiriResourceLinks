@@ -22,11 +22,31 @@ export default () => (
         <ResourceLink text="Hackr.io" href="https://hackr.io/"/>
         <ResourceLink text="W3 Schools" href="https://www.w3schools.com/"/>
         <ResourceLink text="Egghead.io" href="https://egghead.io/"/>
-
       </Topic>
-      <Topic name="Books" parentId="javascript" index="1" />
-      <Topic name="YouTube Channels" parentId="javascript" index="2" />
-      <Topic name="Under the Hood" parentId="javascript" index="3" />
+      <Topic name="Books" parentId="javascript" index="1">
+        <ResourceLink text="Eloquent JavaScript" href="https://eloquentjavascript.net/"/>
+        <ResourceLink text="You Don't Know JS" href="https://github.com/getify/You-Dont-Know-JS/find/master"/>
+        <ResourceLink text="JavaScript The Good Parts" href="http://shop.oreilly.com/product/9780596517748"/>
+        <ResourceLink text="JS Design Patterns" href="https://addyosmani.com/resources/essentialjsdesignpatterns/book/"/>
+        <ResourceLink text="Douglas Crockford Talk" href="https://www.youtube.com/watch?reload=9&v=v2ifWcnQs6M"/>
+      </Topic>
+      <Topic name="YouTube Channels" parentId="javascript" index="2">
+        <ResourceLink text="Kodiri" href="https://www.youtube.com/kodiri"/>
+        <ResourceLink text="Traversy Media" href="https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA"/>
+        <ResourceLink text="Tony Alicea - Understanding the Weird Parts" href="https://www.youtube.com/watch?v=Bv_5Zv5c-Ts"/>
+        <ResourceLink text="Academind" href="https://www.youtube.com/channel/UCSJbGtTlrDami-tDGPUV9-w"/>
+        <ResourceLink text="Tech Sith" href="https://www.youtube.com/user/techSithTube"/>
+        <ResourceLink text="Fireship.io" href="https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA"/>
+        <ResourceLink text="freeCodeCamp" href="https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ"/>
+        <ResourceLink text="Udemy Tech" href="https://www.youtube.com/channel/UCU6e4MJtvlcX5DBLP1cq8hQ"/>
+        <ResourceLink text="Fun Fun Function MPJ" href="https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q"/>
+      </Topic>
+
+      <Topic name="Under the Hood" parentId="javascript" index="3">
+        <ResourceLink text="The Event Loop Video" href="https://www.youtube.com/watch?v=cCOL7MC4Pl0"/>
+        <ResourceLink text="V8 Engine" href="https://v8.dev/"/>
+        <ResourceLink text="V8 to machine code" href="https://medium.freecodecamp.org/understanding-the-core-of-nodejs-the-powerful-chrome-v8-engine-79e7eb8af964"/>
+        </Topic>
     </Section>
 
     <Section id="react" name="React">
@@ -55,6 +75,15 @@ export default () => (
         <ResourceLink text="Grid Critters" href="https://gridcritters.com/" />
         <ResourceLink text="Grid Tile Layouts" href="https://gedd.ski/post/tile-layouts/" />
       </Topic>
+      <Topic name="books" parentId="css" index="2">
+        <ResourceLink text="SMACSS" href="http://smacss.com/" />
+      </Topic>
+      <Topic name="preprocessors and frameworks" parentId="css" index="3">
+        <ResourceLink text="SASS" href="https://sass-lang.com/" />
+        <ResourceLink text="LESS" href="http://lesscss.org/" />
+        <ResourceLink text="Bootstrap" href="https://getbootstrap.com/" />
+        <ResourceLink text="Bulma" href="https://bulma.io/" />
+      </Topic>
     </Section>
 
     <Section id="git" name="Git">
@@ -77,10 +106,20 @@ export default () => (
     </Section>
 
     <Section id="testing" name="Testing">
-      <Topic name="TDD" parentId="testing" index="0" />
-      <Topic name="Testing React Components" parentId="testing" index="1" />
-      <Topic name="Jest and Jasmine" parentId="testing" index="2" />
-      <Topic name="Enzyme" parentId="testing" index="3" />
+      <Topic name="TDD" parentId="testing" index="0">
+        <ResourceLink text="Learn TDD Guide by DWYL" href="https://github.com/dwyl/learn-tdd"/>
+        <ResourceLink text="2019 Overview of Javascript Testing" href="https://medium.com/welldone-software/an-overview-of-javascript-testing-in-2019-264e19514d0a"/>
+        <ResourceLink text="Debugging with Chrome Dev Tools" href="https://developers.google.com/web/tools/chrome-devtools/javascript/"/>
+        <ResourceLink text="Istanbul with Jest" href="https://istanbul.js.org/docs/tutorials/jest/"/>
+      </Topic>
+      <Topic name="Testing React Components" parentId="testing" index="1">
+        <ResourceLink text="Unit Testing with Jest and Enzyme" href="https://www.codementor.io/vijayst/unit-testing-react-components-jest-or-enzyme-du1087lh8"/>
+        <ResourceLink text="Testing React Components Video" href="https://www.youtube.com/watch?v=XUlGzJLZe2Q"/>
+        <ResourceLink text="Jest Documentation" href="https://jestjs.io/"/>
+        <ResourceLink text="Enzyme Documentation" href="https://airbnb.io/enzyme/docs/api/"/>
+        <ResourceLink text="create-react-app tests" href="https://facebook.github.io/create-react-app/docs/running-tests"/>
+        <ResourceLink text="Testing React Components" href="https://medium.com/codeclan/testing-react-with-jest-and-enzyme-20505fec4675"/>
+      </Topic>
     </Section>
 
     <Section id="deployment" name="Deployment" />
