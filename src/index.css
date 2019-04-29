@@ -23,7 +23,7 @@ a {
 	color: #000;
   }
 a:hover {
-	color: red;
+	color: blue;
 }
 a:focus {
 	color: green;
