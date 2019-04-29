@@ -117,6 +117,8 @@ export default () => (
 
     <Section id="git" name="Git">
       <Topic name="Docs and Tutorials" parentId="git" index="0">
+      <ResourceLink text="Adrian GitHub" href="https://github.com/adrian23221"/>
+
         <ResourceLink text="git SCM" href="https://git-scm.com/"/>
         <ResourceLink text="Official help" href="https://help.github.com/"/>
         <ResourceLink text="Atlassian Tutorials" href="https://www.atlassian.com/git/tutorials"/>
