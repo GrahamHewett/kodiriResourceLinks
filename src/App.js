@@ -114,7 +114,15 @@ export default () => (
         <ResourceLink text="Bulma" href="https://bulma.io/" />
       </Topic>
     </Section>
-
+    <Section id="eveningTeam" name="Evening Team">
+      <Topic name="Project Proposals" parentId="eveningTeam" index="0">
+        <ResourceLink text="Fit App" href="#"/>
+        <ResourceLink text="Hotel Booking App" href="#"/>
+        <ResourceLink text="Fashion Hub" href="#"/>     
+      </Topic>
+      <Topic name="General" parentId="git" index="1">
+      </Topic>
+    </Section>
     <Section id="git" name="Git">
       <Topic name="Docs and Tutorials" parentId="git" index="0">
         <ResourceLink text="Adrian GitHub" href="https://github.com/adrian23221"/>
