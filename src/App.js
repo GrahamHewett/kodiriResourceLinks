@@ -116,11 +116,12 @@ export default () => (
     </Section>
     <Section id="eveningTeam" name="Evening Team">
       <Topic name="Project Proposals" parentId="eveningTeam" index="0">
+        <ResourceLink text="Wonder Present Selector based on Social Media" href="#"/>
         <ResourceLink text="Fit App" href="#"/>
         <ResourceLink text="Hotel Booking App" href="#"/>
         <ResourceLink text="Fashion Hub" href="#"/>     
       </Topic>
-      <Topic name="General" parentId="git" index="1">
+      <Topic name="General" parentId="eveningTeam" index="1">
       </Topic>
     </Section>
     <Section id="git" name="Git">
@@ -160,7 +161,6 @@ export default () => (
         <ResourceLink text="Testing React Components" href="https://medium.com/codeclan/testing-react-with-jest-and-enzyme-20505fec4675"/>
       </Topic>
     </Section>
-
     <Section id="deployment" name="Deployment">
       <Topic name="Deployment Options" parentId="deployment" index="0">
         <ResourceLink text="Now React Deployment" href="https://zeit.co/guides/deploying-react-with-now-cra"/>
