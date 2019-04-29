@@ -60,6 +60,7 @@ export default () => (
         <ResourceLink text="Awesome React" href="https://github.com/enaqx/awesome-react"/>
         <ResourceLink text="Front End Masters Learn React" href="https://frontendmasters.com/books/front-end-handbook/2018/learning/react.html"/>
         <ResourceLink text="React Bits" href="https://vasanthk.gitbooks.io/react-bits/"/>
+        <ResourceLink text="Don't Watch!" href="https://www.youtube.com/watch?v=oHg5SJYRHA0"/>
         {/* https://medium.freecodecamp.org/learning-react-roadmap-from-scratch-to-advanced-bff7735531b6
         https://hackr.io/tutorials/learn-react
         http://buildwithreact.com/
