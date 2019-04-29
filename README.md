@@ -8,6 +8,8 @@ Navigate to your fork on GitHub located at (https://github.com/YOURUSERNAME/kodi
 Navigate to a folder on your machine where you want to clone the project to E.g. /User/projects  
 `git clone <ssh link to your forked repo>`  
 clones your fork  so you have a local copy on your machine to work on.  
+You will need to run `npm i` to install all necessary dependencies.  
+Please check package-lock.json is added to your .gitignore file 
 For additional details see https://help.github.com/en/articles/fork-a-repo
 
 ### How to keep your personal/local repository in sync with the original project hosted on github
