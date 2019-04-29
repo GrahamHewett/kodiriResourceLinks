@@ -114,9 +114,18 @@ export default () => (
         <ResourceLink text="Bulma" href="https://bulma.io/" />
       </Topic>
     </Section>
-
+    <Section id="eveningTeam" name="Evening Team">
+      <Topic name="Project Proposals" parentId="eveningTeam" index="0">
+        <ResourceLink text="Fit App" href="#"/>
+        <ResourceLink text="Hotel Booking App" href="#"/>
+        <ResourceLink text="Fashion Hub" href="#"/>     
+      </Topic>
+      <Topic name="General" parentId="git" index="1">
+      </Topic>
+    </Section>
     <Section id="git" name="Git">
       <Topic name="Docs and Tutorials" parentId="git" index="0">
+        <ResourceLink text="Adrian GitHub" href="https://github.com/adrian23221"/>
         <ResourceLink text="git SCM" href="https://git-scm.com/"/>
         <ResourceLink text="Official help" href="https://help.github.com/"/>
         <ResourceLink text="Atlassian Tutorials" href="https://www.atlassian.com/git/tutorials"/>
@@ -125,6 +134,7 @@ export default () => (
       <Topic name="Git Commands" parentId="git" index="1">
         <ResourceLink text="Simple Overview" href="https://rogerdudler.github.io/git-guide/"/>
         <ResourceLink text="Learn git Branching" href="https://learngitbranching.js.org/"/>
+        <ResourceLink text="Adrian Command" href="#"/>
         <ResourceLink text="Using Branches" href="https://backlog.com/git-tutorial/using-branches/"/>
       </Topic>
       <Topic name="GitHub Collaboration" parentId="git" index="2">
