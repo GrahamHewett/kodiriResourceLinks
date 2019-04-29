@@ -17,7 +17,7 @@ export default () => (
   <>
     <Section id="javascript" name="JavaScript">
       <Topic name="Online Documentation and Tutorials" parentId="javascript" index="0">
-        <ResourceLink text="JavaScript.info" href="https://javascript.info/" />
+        <ResourceLink text="JavaScript This is my change.info" href="https://javascript.info/" />
         <ResourceLink text="Mozilla Developer Network" href="https://developer.mozilla.org/en-US/"/>
         <ResourceLink text="Hackr.io" href="https://hackr.io/"/>
         <ResourceLink text="W3 Schools" href="https://www.w3schools.com/"/>
