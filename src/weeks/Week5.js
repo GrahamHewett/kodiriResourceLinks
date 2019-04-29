@@ -7,13 +7,12 @@ function Week5() {
 	return (
 		<Section id='wk5' name='Week 5'>
       <Topic parentId = 'wk5' name='Server Side JavaScript' index='0'>
-        <ResourceLink text='Link' href='#'></ResourceLink>
-				https://spin.atomicobject.com/2015/04/06/web-app-client-side-server-side/
-				https://nodejs.org/en/about/
-				https://www.tutorialspoint.com/nodejs/index.htm
+        <ResourceLink text='Link' href='https://spin.atomicobject.com/2015/04/06/web-app-client-side-server-side/'></ResourceLink>
+				<ResourceLink text='NodeJS' href='https://nodejs.org/en/about/'></ResourceLink>
+				{/* https://www.tutorialspoint.com/nodejs/index.htm
 				https://www.coursera.org/learn/server-side-nodejs
-				http://expressjs.com/
-				https://www.totaljs.com/
+				https://www.totaljs.com/ */}
+				<ResourceLink text='Express' href='http://expressjs.com/'></ResourceLink>
       </Topic>
       <Topic name='Web Application Architecture' parentId='wk5' index='1'>
 				<ResourceLink text='Client Side and Server Side Code - High Level Overview' 
@@ -24,7 +23,7 @@ function Week5() {
 				</ResourceLink>
       </Topic>
 
-			<Topic name='Event Listeners and Handlers' parentId='wk5' index='1'>
+			<Topic name='Event Listeners and Handlers' parentId='wk5' index='2'>
 				<ResourceLink text='MDN Event Handlers' href='https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Event_handlers'></ResourceLink>
 				<ResourceLink text='React OnClick' href='https://blog.logrocket.com/a-guide-to-react-onclick-event-handlers-d411943b14dd'></ResourceLink>
 				{/* https://flaviocopes.com/javascript-events/
