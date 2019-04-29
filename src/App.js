@@ -17,7 +17,7 @@ export default () => (
   <>
     <Section id="javascript" name="JavaScript">
       <Topic name="Online Documentation and Tutorials" parentId="javascript" index="0">
-        <ResourceLink text="JavaScript This is my change.info" href="https://javascript.info/" />
+        <ResourceLink text="JavaScript.info" href="https://javascript.info/" />
         <ResourceLink text="Mozilla Developer Network" href="https://developer.mozilla.org/en-US/"/>
         <ResourceLink text="Hackr.io" href="https://hackr.io/"/>
         <ResourceLink text="W3 Schools" href="https://www.w3schools.com/"/>
@@ -40,6 +40,7 @@ export default () => (
         <ResourceLink text="freeCodeCamp" href="https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ"/>
         <ResourceLink text="Udemy Tech" href="https://www.youtube.com/channel/UCU6e4MJtvlcX5DBLP1cq8hQ"/>
         <ResourceLink text="Fun Fun Function MPJ" href="https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q"/>
+        <ResourceLink text="OOP in Javascript" href="https://www.youtube.com/watch?v=PFmuCDHHpwk"/>
       </Topic>
 
       <Topic name="Under the Hood" parentId="javascript" index="3">
