@@ -80,6 +80,7 @@ export default () => (
         https://programmingwithmosh.com/javascript/react-lifecycle-methods/ */}
         <ResourceLink text="Where to Fetch Data" href="https://daveceddia.com/where-fetch-data-componentwillmount-vs-componentdidmount"/>
         {/* https://reactjs.org/docs/reconciliation.html */}
+        <ResourceLink text="How to fetch Data in react" hreft="https://www.robinwieruch.de/react-fetching-data/"/>
       </Topic>
       <Topic name="Hooks" parentId="react" index="4">
         <ResourceLink text="Official Hooks Intro" href="https://reactjs.org/docs/hooks-intro.html"/>
