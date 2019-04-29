@@ -152,11 +152,17 @@ export default () => (
     </Section>
 
     <Section id="deployment" name="Deployment" />
+    <Topic name="Deployment Options" parentId="deployment" index="0">
+      <ResourceLink text="Now React Deployment" href="https://zeit.co/guides/deploying-react-with-now-cra"/>
+      <ResourceLink text="Heroku Deployment" href=""/>
+      <ResourceLink text="AWS Deployment" href=""/>
+      <ResourceLink text="Firebase Deployment" href=""/>
+    </Topic>
 
-    <Week1 /><Week2 /><Week3 /><Week4 />
+    <Week1/><Week2/><Week3/><Week4/>
 
-    <Week5 />
+    <Week5/>
 
-    <Week6 /><Week7 /><Week8 /><Week9 />
+    <Week6/><Week7/><Week8/><Week9/>
   </>
 );
