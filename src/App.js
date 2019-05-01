@@ -159,6 +159,11 @@ export default () => (
         <ResourceLink text="Firebase Deployment" href=""/>
       </Topic>
     </Section>
+    <Section id='api' name='API'>
+      <Topic name='API' parentId='api' index='0'>
+        <ResourceLink text='What is an API' href='https://medium.freecodecamp.org/what-is-an-api-in-english-please-b880a3214a82'/>
+      </Topic>
+    </Section>
     <Week1/><Week2/><Week3/><Week4/>
 
     <Week5/>
