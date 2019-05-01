@@ -134,6 +134,7 @@ export default () => (
         <ResourceLink text="Official help" href="https://help.github.com/"/>
         <ResourceLink text="Atlassian Tutorials" href="https://www.atlassian.com/git/tutorials"/>
         <ResourceLink text="Git Immersion" href="http://gitimmersion.com/index.html"/>
+        <ResourceLink text="GitHub Guide" href="https://github.com/antonykidis/GitHub-guide/blob/master/Git%20and%20GitHub.pdf"/>
       </Topic>
       <Topic name="Git Commands" parentId="git" index="1">
         <ResourceLink text="Simple Overview" href="https://rogerdudler.github.io/git-guide/"/>
