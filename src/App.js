@@ -172,6 +172,12 @@ export default () => (
         <ResourceLink text="Firebase Deployment" href=""/>
       </Topic>
     </Section>
+    <Section id="utilities" name="Utilities">
+      <Topic name="Code checking tool" parentId="utilities" index="0">
+        <ResourceLink text="Diffchecker" href="https://www.diffchecker.com/"/>
+              
+      </Topic>
+    </Section>
     <Week1/><Week2/><Week3/><Week4/>
 
     <Week5/>
