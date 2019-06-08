@@ -8,7 +8,7 @@ import Git from "./sections/Git";
 import Testing from "./sections/Testing";
 import Deployment from "./sections/Deployment";
 import AllWeeks from "./weeks/AllWeeks";
-
+import VSCode from "./sections/VSCode"
 
 export default () => (
   <>
@@ -19,5 +19,6 @@ export default () => (
     <Testing />
     <Deployment />
     <AllWeeks />
+    <VSCode/>
   </>
 );

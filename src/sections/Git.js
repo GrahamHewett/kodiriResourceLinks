@@ -21,6 +21,7 @@ function Git() {
         <ResourceLink text="Connecting with SSH" href="https://help.github.com/articles/connecting-to-github-with-ssh/"/>
         <ResourceLink text="Forking and Pull Requests" href="https://www.gun.io/blog/how-to-github-fork-branch-and-pull-request"/>
         <ResourceLink text="Track a branch" href="https://www.git-tower.com/learn/git/faq/track-remote-upstream-branch"/>
+        <ResourceLink text="GitHub Guide" href="https://github.com/antonykidis/GitHub-guide/blob/master/Git%20and%20GitHub.pdf"/>
       </Topic>
     </Section>
 	)
