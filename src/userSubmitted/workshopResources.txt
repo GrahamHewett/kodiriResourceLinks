@@ -2,13 +2,18 @@
 https://mathiasbynens.be/notes/es6-const
 http://es6-features.org/#Constants
 
-DataTypes Primitives and Non-primitives
+********* Map forEach Reduce ***********
 
+https://medium.com/@JeffLombardJr/understanding-foreach-map-filter-and-find-in-javascript-f91da93b9f2c
+https://medium.com/@eliaai/javascript-functional-programming-foreach-map-filter-reduce-f710abb69753
+https://danmartensen.svbtle.com/javascripts-map-reduce-and-filter
+
+******DataTypes Primitives Non-primitives ********
 http://2ality.com/2011/03/javascript-values-not-everything-is.html
 https://webbjocke.com/javascript-check-data-types/
 https://codeburst.io/explaining-value-vs-reference-in-javascript-647a975e12a0
 https://stackoverflow.com/questions/6605640/javascript-by-reference-vs-by-value
-https://www.google.com/search?q=javascript+value+vs+reference&oq=javascript+value+vs+reference&aqs=chrome..69i57.6369j0j7&sourceid=chrome&ie=UTF-8
+Images from JS the weird parts Alicea
 
 ********* Operators ***********
 https://www.javatpoint.com/javascript-operators
