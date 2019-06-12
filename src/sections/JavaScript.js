@@ -21,7 +21,7 @@ function JavaScript() {
         <ResourceLink text="Egghead.io" href="https://egghead.io/" />
       </Topic>
 
-      <Topic name="YouTube Channels" parentId="javascript" index="2">
+      <Topic name="YouTube Channels" parentId="javascript" index="1">
         <ResourceLink text="Kodiri" href="https://www.youtube.com/kodiri" />
         <ResourceLink
           text="Traversy Media"
@@ -57,7 +57,7 @@ function JavaScript() {
         />
       </Topic>
 
-      <Topic name="Under the Hood" parentId="javascript" index="3">
+      <Topic name="Under the Hood" parentId="javascript" index="2">
         <ResourceLink
           text="The Event Loop Video"
           href="https://www.youtube.com/watch?v=cCOL7MC4Pl0"
