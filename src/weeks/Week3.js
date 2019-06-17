@@ -2,6 +2,7 @@ import React from "react";
 import Section from "../components/Section";
 import Topic from "../components/Topic";
 import ResourceLink from "../components/Link";
+import nodeInfoGraphic from "../images/nodeInfoGraphic.jpeg"
 
 function Week3() {
   return (
@@ -30,6 +31,10 @@ function Week3() {
         <ResourceLink
           text="Coursera Development with NodeJS"
           href="https://www.coursera.org/learn/server-side-nodejs"
+        />
+        <ResourceLink
+          text="Node Infographic"
+          href={nodeInfoGraphic}
         />
       </Topic>
       <Topic parentId="wk3" name="CSS Effects" index="1">
