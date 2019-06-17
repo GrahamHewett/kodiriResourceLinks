@@ -1,5 +1,6 @@
 import React from "react";
 import Topic from '../components/Topic';
+import ResourceLink from "../components/Link";
 
 function JSBooks() {
 	return (

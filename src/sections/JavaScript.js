@@ -2,6 +2,7 @@ import React from "react";
 import Section from "../components/Section";
 import Topic from "../components/Topic";
 import ResourceLink from "../components/Link";
+import JSBooks from "../topics/JSBooks"
 
 function JavaScript() {
   return (
@@ -21,7 +22,9 @@ function JavaScript() {
         <ResourceLink text="Egghead.io" href="https://egghead.io/" />
       </Topic>
 
-      <Topic name="YouTube Channels" parentId="javascript" index="1">
+      <JSBooks/>
+
+      <Topic name="YouTube Channels" parentId="javascript" index="2">
         <ResourceLink text="Kodiri" href="https://www.youtube.com/kodiri" />
         <ResourceLink
           text="Traversy Media"
@@ -52,12 +55,12 @@ function JavaScript() {
           href="https://www.youtube.com/channel/UCU6e4MJtvlcX5DBLP1cq8hQ"
         />
         <ResourceLink
-          text="Fun Fun Function MPJ"
+          text="Fun Fun Function"
           href="https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q"
         />
       </Topic>
 
-      <Topic name="Under the Hood" parentId="javascript" index="2">
+      <Topic name="Under the Hood" parentId="javascript" index="3">
         <ResourceLink
           text="The Event Loop Video"
           href="https://www.youtube.com/watch?v=cCOL7MC4Pl0"
